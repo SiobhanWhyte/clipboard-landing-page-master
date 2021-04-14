@@ -8,25 +8,26 @@ body {
     font-family: 'Bai Jamjuree', sans-serif;
     font-size: 16px;
     color: hsl(210, 10%, 33%);
+    background-image: url(./images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
 }
 
 header {
-    background-image: url(./images/bg-header-desktop.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+   
     align-items: center;
     text-align: center;
 }
 h1,
 h2,
 h4 {
-    font-weight: 400;
+    font-weight: bold;
     text-align: center;
 }
 
 h3 {
-    margin:0;
-    max-height: 100rem;
+    border: none;
 }
 
 p {
@@ -34,28 +35,53 @@ p {
     text-align: center;
 }
 
-.pro-list {
-    max-width: 28rem;
+img {
+    max-width: 100%;
+    height: auto;
 }
 
-.text-section {
 
+.text-section {
+    max-width: 350px;
+    display: inline-block;
+    margin: 5rem 5rem 10rem 10rem;
+    
 }
 
 .left-align {
+    text-align: left;
     
 }
 
 .section-one {
+max-width: 610px;
+text-align: center;
+margin:0 auto;
+padding: 5rem 0 5rem 0;
+}
 
+.image-device {
+    text-align: center;
+    margin:5rem 0;
 }
 
 .section-two {
-    
+max-width: 610px;
+text-align: center;
+margin:0 auto;
+padding: 10rem 0 5rem 0;
 }
 
 .section-three {
-    
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 600px;
+    grid-auto-flow: row;
+    column-gap: 15px;
+    row-gap: 1em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;  
 }
 
 .section-four {
