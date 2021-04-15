@@ -12,6 +12,8 @@ body {
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100%;
+    max-width: 1450px;
+    margin: 0 auto;
 }
 
 header {
@@ -89,7 +91,7 @@ padding: 2rem 0 5rem 0;
 
 .section-four {
     display: grid;
-    grid-template-columns: 250px 250px 250px 250px 250px;
+    grid-template-columns: 150px 250px 250px 250px 250px;
     grid-template-rows: 250px;
     grid-auto-flow: row;
     column-gap: 15px;
