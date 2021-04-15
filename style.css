@@ -19,6 +19,7 @@ header {
    
     align-items: center;
     text-align: center;
+    margin: 0 auto;
 }
 h1,
 h2,
@@ -91,6 +92,7 @@ padding: 2rem 0 5rem 0;
     display: grid;
         grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
         grid-gap: 1rem;
+        margin: 0 auto;
 }
 .section-five {
 width: 50%;
@@ -102,6 +104,7 @@ padding: 5rem 0 5rem 0;
 
 .btn {
     color:white;
+    width: 50%;
     border-radius: 10rem;
     width: 12rem;
     height: 3rem;
@@ -111,16 +114,6 @@ padding: 5rem 0 5rem 0;
     transition: all 0.3s ease 0s;
     cursor: pointer;
     }
-
-    display: grid;
-    grid-template-columns: 250px 250px 250px 250px 250px;
-    grid-template-rows: 50px;
-    grid-auto-flow: row;
-    column-gap: 15px;
-    row-gap: 3em;
-    justify-content: center;
-    align-items: center;
-    text-align: center; 
   
   .btn:hover {
     background-color: #2EE59D;
@@ -147,19 +140,8 @@ padding: 5rem 0 5rem 0;
         grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
         grid-gap: 1rem;
         max-width: 1000px;
-        text-align: left;
         margin: 0 auto;
       }
-
-.press {
-    grid-column: 1;
-    grid-row: 2 / 2;
-}
-
-.install {
-    grid-column: 2;
-    grid-row: 2 / 2;
-}
 
 .bottom-logo {
     display: block;
