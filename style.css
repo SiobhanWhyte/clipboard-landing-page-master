@@ -12,7 +12,7 @@ body {
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100%;
-    margin: 0 auto;
+
 }
 
 header {
@@ -47,9 +47,9 @@ img {
 
 
 .text-section {
-    max-width: 350px;
+    max-width: 450px;
     display: inline-block;
-    margin: 5rem 5rem 5rem 5rem;
+    margin: 5rem 5rem 5rem 7rem;
     
 }
 
@@ -59,7 +59,7 @@ img {
 }
 
 .section-one  {
-max-width: 610px;
+max-width: 600px;
 text-align: center;
 margin:0 auto;
 padding: 5rem 0 5rem 0;
@@ -79,26 +79,35 @@ padding: 2rem 0 5rem 0;
 
 .section-three {
     display: grid;
-    grid-template-columns: repeat(3, 1fr, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-template-rows: repeat(1, 300px);
     column-gap: 15px;
     row-gap: 1em;
     justify-content: center;
     align-items: center;
-    text-align: center;  
+    text-align: center; 
+    margin: 0rem 10rem;
 }
 
 .section-four {
     display: grid;
         grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-        grid-gap: 1rem;
-        margin: 0 auto;
+        grid-row-gap: 1rem;
+        justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 .section-five {
 width: 50%;
 text-align: center;
 margin:0 auto;
 padding: 5rem 0 5rem 0;
+}
+
+.section-six {
+    background-color: rgb(245, 241, 241);
+    background-position: center;
+    margin:0 auto;
 }
 
 
@@ -125,6 +134,7 @@ padding: 5rem 0 5rem 0;
 .btn--green {
     background-color: hsl(171, 66%, 44%);
     border-color: hsl(171, 66%, 44%);
+    margin: .5rem;
 
 }
 
@@ -140,17 +150,20 @@ padding: 5rem 0 5rem 0;
         grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
         grid-gap: 1rem;
         max-width: 1000px;
-        margin: 0 auto;
+        margin: 5rem 0rem;
+        justify-content: center;
+    text-align: center; 
       }
 
 .bottom-logo {
-    display: block;
+    display: flex;
     margin: 0 auto;
+    width: 3rem;
 }
 .social-icons {
 display: flex;
 max-width: 200px;
-text-align: right;
+justify-content: center;
 margin: 0 auto;
 }
 
